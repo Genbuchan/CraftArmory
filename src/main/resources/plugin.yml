@@ -1,12 +1,7 @@
-name: PaperPluginTemplate
+name: CraftArmory
 version: '0.1.0'
-main: studio.genbu.mc.paperplugintemplate.PaperPluginTemplate
-description: Plugin description here.
-author: Author
-website: http://example.com/
+main: studio.genbu.mc.craftarmory.CraftArmory
+description: The armory for minecrafters.
+author: Genbuchan
+website: http://genbu.studio/
 api-version: '1.21'
-
-commands:
-  test:
-    description: Test
-    permission: test.test.test

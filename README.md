@@ -1,4 +1,4 @@
-# Paper Plugin Template
+# CraftArmory
 
 本リポジトリは、 Minecraft: Java Editionのサーバプラグイン開発を支援するためのテンプレートリポジトリです。
 
