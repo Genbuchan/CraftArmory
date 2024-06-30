@@ -1,6 +1,7 @@
 package studio.genbu.mc.craftarmory
 
 import org.bukkit.plugin.java.JavaPlugin
+import studio.genbu.mc.craftarmory.events.PlayerEvents
 
 class CraftArmory: JavaPlugin() {
 
@@ -9,6 +10,8 @@ class CraftArmory: JavaPlugin() {
     }
 
     override fun onEnable() {
+        server.pluginManager.registerEvents(PlayerEvents(), this)
+
         logger.info("CraftArmory has been enabled.")
     }
 
